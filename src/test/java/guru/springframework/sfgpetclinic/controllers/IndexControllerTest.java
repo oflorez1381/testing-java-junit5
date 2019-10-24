@@ -1,12 +1,14 @@
 package guru.springframework.sfgpetclinic.controllers;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.*;
 
 import java.time.Duration;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
@@ -26,6 +28,9 @@ class IndexControllerTest {
         assertEquals("index", controller.index(), "Wrong View Returned");
         assertEquals("index", controller.index(), () -> "Another expensive message " +
                 "to test lambdas been lazily loaded if there is a failure");
+
+        // AssertJ
+        assertThat(controller.index()).isEqualTo("index");
     }
 
     @Test
@@ -37,6 +42,7 @@ class IndexControllerTest {
     }
 
     @Test
+    @Disabled
     @DisplayName("Demo timeout")
     void testTimeOut() {
         assertTimeout(Duration.ofMillis(100), () -> {
@@ -46,6 +52,7 @@ class IndexControllerTest {
     }
 
     @Test
+    @Disabled
     @DisplayName("Demo timeout")
     void testTimeOutPreemptively() {
         assertTimeoutPreemptively(Duration.ofMillis(100), () -> {
