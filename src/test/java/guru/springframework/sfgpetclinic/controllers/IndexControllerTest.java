@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 class IndexControllerTest {
 
@@ -50,5 +51,15 @@ class IndexControllerTest {
             Thread.sleep(2000);
             System.out.println("I got here timeout preemptively");
         });
+    }
+
+    @Test
+    void testAssumptionTrue(){
+        assumeTrue("GURU".equalsIgnoreCase(System.getenv("GURU_RUNTIME")));
+    }
+
+    @Test
+    void testAssumptionTrueWhenAssumptionIsTrue(){
+        assumeTrue("GURU".equalsIgnoreCase("GURU"));
     }
 }
