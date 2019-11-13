@@ -1,12 +1,14 @@
 package guru.springframework.sfgpetclinic.model;
 
 import guru.springframework.sfgpetclinic.ModelTests;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class OwnerTest implements ModelTests {
 
@@ -31,5 +33,11 @@ class OwnerTest implements ModelTests {
         // Hamcrest
 
         assertThat(owner.getCity(), is("Key West"));
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = {"Spring","Framework","Guru"})
+    void testValueSource(String value) {
+        System.out.println(value);
     }
 }
