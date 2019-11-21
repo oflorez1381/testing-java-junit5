@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/oflorez1381/testing-java-junit5.svg?style=svg)](https://circleci.com/gh/oflorez1381/testing-java-junit5)
+
 # Introduction to JUnit 5 with Maven
 
 All source code examples in the repository are for [Testing Spring Beginner to Guru](https://www.udemy.com/testing-spring-boot-beginner-to-guru/?couponCode=GITHUB_REPO) course
