@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69129cd5-a9ab-4dbf-b8e0-a010769c97b6" name="Default Changelist" comment="">
+    <list default="true" id="69129cd5-a9ab-4dbf-b8e0-a010769c97b6" name="Default Changelist" comment="7.4 Added Configuration Maven Surefire and Failsafe plugin, also added integration test example">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgpetclinic/services/springdatajpa/SpecialitySDJpaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgpetclinic/services/springdatajpa/SpecialitySDJpaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgpetclinic/services/springdatajpa/SpecialitySDJpaServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgpetclinic/services/springdatajpa/SpecialitySDJpaServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +271,7 @@
       <workItem from="1575423905656" duration="791000" />
       <workItem from="1575503243720" duration="98000" />
       <workItem from="1575506674371" duration="4970000" />
-      <workItem from="1576630423634" duration="1385000" />
+      <workItem from="1576630423634" duration="2913000" />
     </task>
     <task id="LOCAL-00001" summary="5.10 Testing timeouts">
       <created>1571883044617</created>
@@ -346,22 +348,26 @@
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="408" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.792@0.23.1440.792" timestamp="1575423726952" />
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom" timestamp="1576631909676">
+    <state x="183" y="23" width="1073" height="792" key="CommitChangelistDialog2" timestamp="1576632957383">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1576631909675" />
-    <state width="1398" height="191" key="GridCell.Tab.0.center" timestamp="1576631909674">
+    <state x="183" y="23" width="1073" height="792" key="CommitChangelistDialog2/0.23.1440.792@0.23.1440.792" timestamp="1576632957383" />
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom" timestamp="1576633713154">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1576631909674" />
-    <state width="1398" height="191" key="GridCell.Tab.0.left" timestamp="1576631909673">
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1576633713154" />
+    <state width="1398" height="191" key="GridCell.Tab.0.center" timestamp="1576633713150">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1576631909673" />
-    <state width="1398" height="191" key="GridCell.Tab.0.right" timestamp="1576631909675">
+    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1576633713150" />
+    <state width="1398" height="191" key="GridCell.Tab.0.left" timestamp="1576633713148">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1576631909675" />
+    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1576633713148" />
+    <state width="1398" height="191" key="GridCell.Tab.0.right" timestamp="1576633713151">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1576633713151" />
     <state x="399" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1576630431047">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
