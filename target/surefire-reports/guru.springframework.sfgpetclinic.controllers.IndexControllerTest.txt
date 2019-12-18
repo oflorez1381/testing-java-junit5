@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: guru.springframework.sfgpetclinic.controllers.IndexControllerTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 0.432 s - in guru.springframework.sfgpetclinic.controllers.IndexControllerTest

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69129cd5-a9ab-4dbf-b8e0-a010769c97b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgpetclinic/services/springdatajpa/SpecialitySDJpaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgpetclinic/services/springdatajpa/SpecialitySDJpaServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1S2QJ8WTABy6NxzwLBPwenG4A4d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="guru.springframework.sfgpetclinic.services.springdatajpa" />
+      <recent name="guru.springframework.sfgpetclinic.controllers" />
+      <recent name="guru.springframework.sfgpetclinic.model" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="guru.springframework" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="guru.springframework.sfgpetclinic.controllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SpecialitySDJpaServiceTest">
+    <configuration name="Controller Tests" type="JUnit" factoryName="JUnit">
+      <module name="testing-java-junit5" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="controllers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Model Tests" type="JUnit" factoryName="JUnit">
+      <module name="testing-java-junit5" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="model" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Repeated Tests" type="JUnit" factoryName="JUnit">
+      <module name="testing-java-junit5" />
+      <extension name="coverage" runner="jacoco" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="repeated" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecialitySDJpaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-java-junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.services.springdatajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.services.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.services.springdatajpa.SpecialitySDJpaServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <tag value="controllers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecialitySDJpaServiceTest.testDeleteByObjectBDD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-java-junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.services.springdatajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.services.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.services.springdatajpa.SpecialitySDJpaServiceTest" />
+      <option name="METHOD_NAME" value="testDeleteByObjectBDD" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <tag value="controllers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecialitySDJpaServiceTest.testFindByIdBDD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-java-junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.services.springdatajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.services.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.services.springdatajpa.SpecialitySDJpaServiceTest" />
+      <option name="METHOD_NAME" value="testFindByIdBDD" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <tag value="controllers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VetSDJpaServiceTest.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-java-junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.services.springdatajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.services.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.services.springdatajpa.VetSDJpaServiceTest" />
+      <option name="METHOD_NAME" value="deleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <tag value="controllers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitSDJpaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-java-junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.services.springdatajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.services.springdatajpa" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.services.springdatajpa.VisitSDJpaServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <tag value="controllers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="controllers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Controller Tests" />
+      <item itemvalue="JUnit.Model Tests" />
+      <item itemvalue="JUnit.Repeated Tests" />
+      <item itemvalue="JUnit.SpecialitySDJpaServiceTest" />
+      <item itemvalue="JUnit.VetSDJpaServiceTest.deleteById" />
+      <item itemvalue="JUnit.VisitSDJpaServiceTest" />
+      <item itemvalue="JUnit.SpecialitySDJpaServiceTest.testFindByIdBDD" />
+      <item itemvalue="JUnit.SpecialitySDJpaServiceTest.testDeleteByObjectBDD" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpecialitySDJpaServiceTest" />
+        <item itemvalue="JUnit.VisitSDJpaServiceTest" />
+        <item itemvalue="JUnit.SpecialitySDJpaServiceTest.testDeleteByObjectBDD" />
+        <item itemvalue="JUnit.SpecialitySDJpaServiceTest.testFindByIdBDD" />
+        <item itemvalue="JUnit.VetSDJpaServiceTest.deleteById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69129cd5-a9ab-4dbf-b8e0-a010769c97b6" name="Default Changelist" comment="" />
+      <created>1570759141649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570759141649</updated>
+      <workItem from="1570759158611" duration="86000" />
+      <workItem from="1570759538918" duration="3180000" />
+      <workItem from="1570841386124" duration="473000" />
+      <workItem from="1571877101162" duration="134000" />
+      <workItem from="1571877296506" duration="5844000" />
+      <workItem from="1572388854627" duration="6569000" />
+      <workItem from="1573609190551" duration="5851000" />
+      <workItem from="1573692288549" duration="536000" />
+      <workItem from="1573778008413" duration="3548000" />
+      <workItem from="1573784350084" duration="2235000" />
+      <workItem from="1573788618570" duration="309000" />
+      <workItem from="1574297163097" duration="352000" />
+      <workItem from="1574298101589" duration="6025000" />
+      <workItem from="1574381247889" duration="1034000" />
+      <workItem from="1574732936776" duration="8368000" />
+      <workItem from="1575258924471" duration="748000" />
+      <workItem from="1575417941336" duration="180000" />
+      <workItem from="1575421850882" duration="1242000" />
+      <workItem from="1575423350415" duration="391000" />
+      <workItem from="1575423905656" duration="791000" />
+      <workItem from="1575503243720" duration="98000" />
+      <workItem from="1575506674371" duration="4970000" />
+      <workItem from="1576630423634" duration="1385000" />
+    </task>
+    <task id="LOCAL-00001" summary="5.10 Testing timeouts">
+      <created>1571883044617</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571883044617</updated>
+    </task>
+    <task id="LOCAL-00002" summary="5.11 Testing assumptions">
+      <created>1571883650025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571883650025</updated>
+    </task>
+    <task id="LOCAL-00003" summary="5.12 Testing Conditional Test Execution">
+      <created>1571884792794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571884792794</updated>
+    </task>
+    <task id="LOCAL-00004" summary="5.13 Testing AssertJ and disabled failed tests">
+      <created>1571885307314</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571885307314</updated>
+    </task>
+    <task id="LOCAL-00005" summary="5.14 Testing Hamcrest">
+      <created>1571885886193</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571885886193</updated>
+    </task>
+    <task id="LOCAL-00006" summary="7.4 Added Configuration Maven Surefire and Failsafe plugin, also added integration test example">
+      <created>1574301769302</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574301769302</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="5.10 Testing timeouts" />
+    <MESSAGE value="5.11 Testing assumptions" />
+    <MESSAGE value="5.12 Testing Conditional Test Execution" />
+    <MESSAGE value="5.13 Testing AssertJ and disabled failed tests" />
+    <MESSAGE value="5.14 Testing Hamcrest" />
+    <MESSAGE value="7.4 Added Configuration Maven Surefire and Failsafe plugin, also added integration test example" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.4 Added Configuration Maven Surefire and Failsafe plugin, also added integration test example" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="408" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575423726952">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state x="408" y="154" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.792@0.23.1440.792" timestamp="1575423726952" />
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom" timestamp="1576631909676">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1576631909675" />
+    <state width="1398" height="191" key="GridCell.Tab.0.center" timestamp="1576631909674">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1576631909674" />
+    <state width="1398" height="191" key="GridCell.Tab.0.left" timestamp="1576631909673">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1576631909673" />
+    <state width="1398" height="191" key="GridCell.Tab.0.right" timestamp="1576631909675">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1576631909675" />
+    <state x="399" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1576630431047">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state x="399" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.792@0.23.1440.792" timestamp="1576630431047" />
+    <state x="385" y="139" width="670" height="676" key="search.everywhere.popup" timestamp="1576630587887">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state x="385" y="139" width="670" height="676" key="search.everywhere.popup/0.23.1440.792@0.23.1440.792" timestamp="1576630587887" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/guru/springframework/sfgpetclinic/fauxspring/DefaultModelMap.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/guru/springframework/sfgpetclinic/controllers/VetControllerTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/testing_java_junit5$Controller_Tests.exec" NAME="Controller Tests Coverage Results" MODIFIED="1574299277750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
