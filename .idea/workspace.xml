@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69129cd5-a9ab-4dbf-b8e0-a010769c97b6" name="Default Changelist" comment="7.4 Added Configuration Maven Surefire and Failsafe plugin, also added integration test example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgpetclinic/services/springdatajpa/SpecialitySDJpaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgpetclinic/services/springdatajpa/SpecialitySDJpaServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgpetclinic/services/springdatajpa/SpecialitySDJpaServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgpetclinic/services/springdatajpa/SpecialitySDJpaServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +56,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="guru.springframework.sfgpetclinic.services.springdatajpa" />
       <recent name="guru.springframework.sfgpetclinic.controllers" />
+      <recent name="guru.springframework.sfgpetclinic.services.springdatajpa" />
       <recent name="guru.springframework.sfgpetclinic.model" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -72,7 +70,7 @@
       <recent name="guru.springframework.sfgpetclinic.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpecialitySDJpaServiceTest">
+  <component name="RunManager" selected="JUnit.OwnerControllerTest">
     <configuration name="Controller Tests" type="JUnit" factoryName="JUnit">
       <module name="testing-java-junit5" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -91,6 +89,24 @@
       <option name="TEST_OBJECT" value="tags" />
       <option name="PARAMETERS" value="" />
       <tag value="model" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OwnerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-java-junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.controllers" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.controllers.OwnerControllerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <tag value="controllers" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,24 +177,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VetSDJpaServiceTest.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing-java-junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="guru.springframework.sfgpetclinic.services.springdatajpa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.sfgpetclinic.services.springdatajpa" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.services.springdatajpa.VetSDJpaServiceTest" />
-      <option name="METHOD_NAME" value="deleteById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <tag value="controllers" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VisitSDJpaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing-java-junit5" />
       <extension name="coverage">
@@ -212,18 +210,18 @@
       <item itemvalue="JUnit.Model Tests" />
       <item itemvalue="JUnit.Repeated Tests" />
       <item itemvalue="JUnit.SpecialitySDJpaServiceTest" />
-      <item itemvalue="JUnit.VetSDJpaServiceTest.deleteById" />
       <item itemvalue="JUnit.VisitSDJpaServiceTest" />
       <item itemvalue="JUnit.SpecialitySDJpaServiceTest.testFindByIdBDD" />
       <item itemvalue="JUnit.SpecialitySDJpaServiceTest.testDeleteByObjectBDD" />
+      <item itemvalue="JUnit.OwnerControllerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OwnerControllerTest" />
         <item itemvalue="JUnit.SpecialitySDJpaServiceTest" />
         <item itemvalue="JUnit.VisitSDJpaServiceTest" />
         <item itemvalue="JUnit.SpecialitySDJpaServiceTest.testDeleteByObjectBDD" />
         <item itemvalue="JUnit.SpecialitySDJpaServiceTest.testFindByIdBDD" />
-        <item itemvalue="JUnit.VetSDJpaServiceTest.deleteById" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +269,7 @@
       <workItem from="1575423905656" duration="791000" />
       <workItem from="1575503243720" duration="98000" />
       <workItem from="1575506674371" duration="4970000" />
-      <workItem from="1576630423634" duration="2913000" />
+      <workItem from="1576630423634" duration="3740000" />
     </task>
     <task id="LOCAL-00001" summary="5.10 Testing timeouts">
       <created>1571883044617</created>
@@ -352,26 +350,30 @@
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="183" y="23" width="1073" height="792" key="CommitChangelistDialog2/0.23.1440.792@0.23.1440.792" timestamp="1576632957383" />
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom" timestamp="1576633713154">
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom" timestamp="1576634582330">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1576633713154" />
-    <state width="1398" height="191" key="GridCell.Tab.0.center" timestamp="1576633713150">
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1576634582330" />
+    <state width="1398" height="191" key="GridCell.Tab.0.center" timestamp="1576634582328">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1576633713150" />
-    <state width="1398" height="191" key="GridCell.Tab.0.left" timestamp="1576633713148">
+    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1576634582328" />
+    <state width="1398" height="191" key="GridCell.Tab.0.left" timestamp="1576634582327">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1576633713148" />
-    <state width="1398" height="191" key="GridCell.Tab.0.right" timestamp="1576633713151">
+    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1576634582327" />
+    <state width="1398" height="191" key="GridCell.Tab.0.right" timestamp="1576634582329">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1576633713151" />
+    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1576634582329" />
     <state x="399" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1576630431047">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
     <state x="399" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.792@0.23.1440.792" timestamp="1576630431047" />
+    <state x="428" y="168" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576634284891">
+      <screen x="0" y="23" width="1440" height="792" />
+    </state>
+    <state x="428" y="168" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.792@0.23.1440.792" timestamp="1576634284891" />
     <state x="385" y="139" width="670" height="676" key="search.everywhere.popup" timestamp="1576630587887">
       <screen x="0" y="23" width="1440" height="792" />
     </state>
